@@ -4,13 +4,15 @@
 
 ## 열어 보기
 
+- 공개 주소: https://moagayo-brochure.vercel.app/
+
 - 파일 하나(`index.html`)에 스타일·스크립트·이미지·설문 데이터가 모두 들어 있어서, 더블클릭하거나 메일로 전달해도 열려요.
 - 글꼴(Pretendard)만 인터넷에서 불러오고, 없으면 기본 글꼴로 보여요.
 - 인쇄(PDF 저장)하면 모든 탭 내용이 펼쳐져요.
 
 ## 배포 (정적 사이트, 빌드 없음)
 
-Vercel에서 **Add New → Project**로 이 저장소를 가져오고 Framework Preset은 `Other`, 빌드 명령과 출력 폴더는 비워 둔 채 Deploy하면 돼요. 배포 주소가 정해지면 `index.html`의 `og:image`를 그 주소의 절대 경로(`https://…/og.jpg`)로 바꿔야 링크 미리보기 이미지가 보여요.
+Vercel에서 **Add New → Project**로 이 저장소를 가져오고 Framework Preset은 `Other`, 빌드 명령과 출력 폴더는 비워 둔 채 Deploy하면 돼요. `index.html`의 `og:image`·`og:url`·`canonical`은 공개 주소(`https://moagayo-brochure.vercel.app/`)로 맞춰 두었어요. 주소를 바꾸면 이 세 곳도 함께 바꿔야 링크 미리보기가 보여요.
 
 ## 파일
 
